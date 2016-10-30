@@ -17,7 +17,7 @@ var port = process.env.PORT || 3000 ;
 var app = express();
 
 //连接本地数据库
-mongoose.connect('mongodb://localhost/meimanhub');
+mongoose.connect('mongodb://localhost/movie');
 //view层的目录
 app.set('views', './views/pages');
 
